@@ -270,6 +270,14 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
+		A087F01620A9C69200B8D6AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A09A935A20A781E700B94B04 /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A09A936420A7E09B00B94B04 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,7 +334,6 @@
 				A0F927CA20A63D9600E47780 /* Dependencies */,
 				A0BA8B4420A63B200084EF8B /* AppDelegate.swift */,
 				A0BA8B4620A63B200084EF8B /* ViewController.swift */,
-				A09A935A20A781E700B94B04 /* WebViewController.swift */,
 				A0BA8B4820A63B200084EF8B /* Main.storyboard */,
 				A0BA8B4B20A63B230084EF8B /* Assets.xcassets */,
 				A0BA8B4D20A63B230084EF8B /* LaunchScreen.storyboard */,
@@ -356,6 +363,7 @@
 		A0BA8B7820A63BB40084EF8B /* RedditComponents */ = {
 			isa = PBXGroup;
 			children = (
+				A087F01620A9C69200B8D6AE /* Controllers */,
 				A09A935C20A7DA8300B94B04 /* Media.xcassets */,
 				A070E20920A7429C001A464A /* UI */,
 				A03D5A7820A6543C002A7696 /* Extension */,

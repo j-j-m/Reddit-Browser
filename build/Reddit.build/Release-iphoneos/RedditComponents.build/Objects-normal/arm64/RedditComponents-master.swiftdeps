@@ -1,4 +1,18 @@
-version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
-options: "0100bb876cd4c77908e57a4c7cfbe09f"
-build_time: [1526277741, 327305000]
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "ae061c73c1eaf67110a2442bbfbfb4b3"
+build_time: [1526308476, 927237000]
 inputs:
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Layout.swift": !dirty [1526249511, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/Foundation/String/String+Service.swift": !dirty [1526270651, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Operators.swift": !dirty [1526276758, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift": !dirty [1526274198, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIColor/UIColor+Random.swift": !dirty [1526249581, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift": !dirty [1526273206, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/UIView->Style.swift": !dirty [1526142384, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift": !dirty [1526275114, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift": !dirty [1526276924, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift": !dirty [1526264939, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift": !dirty [1526273736, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift": !dirty [1526304552, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Borders.swift": !dirty [1525661770, 0]
+  "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/Foundation/Decodable/Decodable+Helper.swift": !dirty [1526263185, 0]

@@ -1,6 +1,48 @@
 {
   "warnings": [
     {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": null,
+      "symbol": "WebViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": 13,
+      "symbol": "WebViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": 15,
+      "symbol": "WebViewController.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": 41,
+      "symbol": "WebViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": 56,
+      "symbol": "WebViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Controllers/WebViewController.swift",
+      "line": 77,
+      "symbol": "WebViewController.webView(_:didFinish:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/Foundation/String/String+Service.swift",
       "line": 13,
       "symbol": "String.urlEscaped",
@@ -289,13 +331,6 @@
     },
     {
       "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
-      "line": 44,
-      "symbol": "Thing.CellType",
-      "symbol_kind": "source.lang.swift.decl.typealias",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
       "line": 46,
       "symbol": "Thing.cellIdentifier",
       "symbol_kind": "source.lang.swift.decl.var.static",
@@ -327,13 +362,6 @@
       "line": 12,
       "symbol": "UITableViewCellGenerator",
       "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
-      "line": 14,
-      "symbol": "UITableViewCellGenerator.CellType",
-      "symbol_kind": "source.lang.swift.decl.associatedtype",
       "warning": "undocumented"
     },
     {
@@ -551,48 +579,6 @@
       "line": 13,
       "symbol": "Orientation.landscape",
       "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": null,
-      "symbol": "WebViewController",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": 13,
-      "symbol": "WebViewController",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": 15,
-      "symbol": "WebViewController.urlString",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": 41,
-      "symbol": "WebViewController.loadView()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": 56,
-      "symbol": "WebViewController.viewDidLoad()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
-      "line": 77,
-      "symbol": "WebViewController.webView(_:didFinish:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
