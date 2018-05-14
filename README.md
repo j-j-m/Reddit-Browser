@@ -2,7 +2,7 @@
 ![A simple little Reddit browser](https://cdn.drawception.com/images/panels/2018/3-6/gDpEMg4WkR-2.png)
 # Simple Reddit Browser
 
-A simple reddit browser. 
+A simple Reddit browser. 
 
 ## Getting Started
 
