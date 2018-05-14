@@ -1,0 +1,11 @@
+framework module RedditComponents {
+  umbrella header "RedditComponents.h"
+
+  export *
+  module * { export * }
+}
+
+module RedditComponents.Swift {
+    header "RedditComponents-Swift.h"
+    requires objc
+}

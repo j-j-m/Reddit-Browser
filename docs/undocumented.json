@@ -1,0 +1,600 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/Foundation/String/String+Service.swift",
+      "line": 13,
+      "symbol": "String.urlEscaped",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/Foundation/String/String+Service.swift",
+      "line": 17,
+      "symbol": "String.utf8Encoded",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIColor/UIColor+Random.swift",
+      "line": 12,
+      "symbol": "CGFloat.random",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIColor/UIColor+Random.swift",
+      "line": 18,
+      "symbol": "UIColor.random",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": null,
+      "symbol": "GradientBacked",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 16,
+      "symbol": "GradientPoint.leftRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 17,
+      "symbol": "GradientPoint.rightLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 18,
+      "symbol": "GradientPoint.topBottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 19,
+      "symbol": "GradientPoint.bottomTop",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 20,
+      "symbol": "GradientPoint.topLeftBottomRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 21,
+      "symbol": "GradientPoint.bottomRightTopLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 22,
+      "symbol": "GradientPoint.topRightBottomLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 23,
+      "symbol": "GradientPoint.bottomLeftTopRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 26,
+      "symbol": "GradientPoint.draw()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 48,
+      "symbol": "GradientLayer",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 49,
+      "symbol": "GradientLayer.gradient",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 56,
+      "symbol": "GradientLayer.randomize()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 61,
+      "symbol": "GradientLayer.setGradient(with:start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 67,
+      "symbol": "GradientBacked",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 68,
+      "symbol": "GradientBacked.randomizeColors()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 69,
+      "symbol": "GradientBacked.setGradient(with:start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 73,
+      "symbol": "GradientBacked.randomizeColors()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 78,
+      "symbol": "GradientBacked.setGradient(with:start:end:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 84,
+      "symbol": "GradientView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 85,
+      "symbol": "GradientView.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 90,
+      "symbol": "GradientImageView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Extension/UIKit/UIView/UIView+Gradients.swift",
+      "line": 91,
+      "symbol": "GradientImageView.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 13,
+      "symbol": "RedditResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 14,
+      "symbol": "RedditResponse.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 15,
+      "symbol": "RedditResponse.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 18,
+      "symbol": "Listing",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 21,
+      "symbol": "Listing.before",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 22,
+      "symbol": "Listing.after",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 26,
+      "symbol": "ThingContainer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 27,
+      "symbol": "ThingContainer.kind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 28,
+      "symbol": "ThingContainer.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 34,
+      "symbol": "Thing.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 35,
+      "symbol": "Thing.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 36,
+      "symbol": "Thing.subreddit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 37,
+      "symbol": "Thing.thumbnail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 38,
+      "symbol": "Thing.permalink",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 44,
+      "symbol": "Thing.CellType",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Model/ServiceModels.swift",
+      "line": 46,
+      "symbol": "Thing.cellIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Operators.swift",
+      "line": 18,
+      "symbol": "|>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Operators.swift",
+      "line": 28,
+      "symbol": ">>>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Operators.swift",
+      "line": 39,
+      "symbol": "<>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 12,
+      "symbol": "UITableViewCellGenerator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 14,
+      "symbol": "UITableViewCellGenerator.CellType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 16,
+      "symbol": "UITableViewCellGenerator.cellIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 17,
+      "symbol": "UITableViewCellGenerator.genrateCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 20,
+      "symbol": "Preloadable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 21,
+      "symbol": "Preloadable.preload(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 24,
+      "symbol": "DataSource",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 33,
+      "symbol": "DataSource.nextResourceIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 35,
+      "symbol": "DataSource.entries",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 48,
+      "symbol": "DataSource.drain()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 77,
+      "symbol": "DataSource.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/DataSource.swift",
+      "line": 81,
+      "symbol": "DataSource.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift",
+      "line": null,
+      "symbol": "RedditService",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift",
+      "line": 18,
+      "symbol": "RedditService",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift",
+      "line": 19,
+      "symbol": "RedditService.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift",
+      "line": 20,
+      "symbol": "RedditService.subreddit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/Service/Service.swift",
+      "line": 72,
+      "symbol": "RedditService.headers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 13,
+      "symbol": "PostCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 15,
+      "symbol": "PostCell.imgView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 29,
+      "symbol": "PostCell.titleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 36,
+      "symbol": "PostCell.subredditLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 44,
+      "symbol": "PostCell.init(style:reuseIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 79,
+      "symbol": "PostCell.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 86,
+      "symbol": "PostCell.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/PostCell.swift",
+      "line": 91,
+      "symbol": "PostCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 4,
+      "symbol": "Device",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 5,
+      "symbol": "Device.phone4inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 6,
+      "symbol": "Device.phone4_7inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 7,
+      "symbol": "Device.phone5_5inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 8,
+      "symbol": "Device.pad",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 11,
+      "symbol": "Orientation",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 12,
+      "symbol": "Orientation.portrait",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/UI/Styling/playground_help.swift",
+      "line": 13,
+      "symbol": "Orientation.landscape",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": null,
+      "symbol": "WebViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": 13,
+      "symbol": "WebViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": 15,
+      "symbol": "WebViewController.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": 41,
+      "symbol": "WebViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": 56,
+      "symbol": "WebViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jacobmartin/Desktop/Reddit/Reddit/WebViewController.swift",
+      "line": 77,
+      "symbol": "WebViewController.webView(_:didFinish:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jacobmartin/Desktop/Reddit"
+}

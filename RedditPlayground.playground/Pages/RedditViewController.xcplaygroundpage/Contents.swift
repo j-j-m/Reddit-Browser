@@ -1,17 +1,16 @@
-//
-//  RedditViewController.swift
-//  Reddit
-//
-//  Created by Jacob Martin on 5/11/18.
-//  Copyright © 2018 jjm. All rights reserved.
-//
+//: A UIKit based Playground for presenting user interface
+
+import UIKit
+import PlaygroundSupport
+import RedditComponents
+import Moya
 
 import UIKit
 import RedditComponents
 import Moya
 
 class RedditViewController : UIViewController {
-    /// current sub. sets the title.
+    
     var subreddit: String? {
         didSet {
             guard let sub = subreddit else {
@@ -37,19 +36,17 @@ class RedditViewController : UIViewController {
         let search = UISearchController(searchResultsController: nil)
         search.searchResultsUpdater = self
         search.searchBar.delegate = self
+        search.searchBar.returnKeyType = .done
         search.dimsBackgroundDuringPresentation = false
         
-       
+        
         return search
     }()
-    
-    
-    /// Data Source used to populate tableview with cells
     
     lazy var dataSource: DataSource<RedditService, Thing> = {
         let d = DataSource<RedditService, Thing>(){ p, d in
             
-            // branch route based on existence of subreddit
+            print("populate interior")
             var sub = self.subreddit
             let route: RedditService = sub == nil ? .main(page: d.nextResourceIdentifier) : .subreddit(id: sub!, page: d.nextResourceIdentifier)
             
@@ -57,18 +54,11 @@ class RedditViewController : UIViewController {
             p.request(route) { result in
                 guard let value = result.value else { return }
                 do {
-                    // decode to object
                     let response = try RedditResponse.decode(from: value.data)
-                    
-                    // if response contains reference to next page of data... keep track of it on the data source.
                     if let after = response.data.after {
                         d.nextResourceIdentifier = after
                     }
-                    
-                    // append data to the data sources stored entities
                     d.append(response.data.children.map { $0.data })
-                   
-                    // reload
                     self.tableview.reloadData()
                 } catch {
                     print(error)
@@ -84,7 +74,7 @@ class RedditViewController : UIViewController {
     }()
     
     override func loadView() {
-    
+        
         let view = UIView()
         view.backgroundColor = .white
         
@@ -111,7 +101,7 @@ class RedditViewController : UIViewController {
         self.navigationItem.setRightBarButton(UIBarButtonItem(barButtonSystemItem: .search, target: self,
                                                               action: #selector(showSearchBar(sender:))),
                                               animated: true)
-
+        
         
         title = "Reddit"
         tableview.register(PostCell.self, forCellReuseIdentifier: "ThingCell")
@@ -132,15 +122,13 @@ extension RedditViewController: UITableViewDelegate {
         vc.urlString = "https://reddit.com" + dataSource.entries[row].permalink
         updateUIForSearchContext()
         self.navigationController?.pushViewController(vc, animated: true)
-
+        
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let row = indexPath.row
         guard let id = dataSource.nextResourceIdentifier,
             row >= dataSource.entries.count - 2 else { return }
-        
-        // if i get to this point then I have more data to retrieve. reload.
         tableView.beginUpdates()
         dataSource.fill()
         tableView.endUpdates()
@@ -151,22 +139,20 @@ extension RedditViewController: UITableViewDelegate {
 // MARK: -  UISearchResultsUpdating & UISearchBarDelegate
 
 extension RedditViewController: UISearchResultsUpdating, UISearchBarDelegate {
-    
-    
-    @objc func showSearchBar(sender: UIBarButtonItem) {
-        searchController.searchBar.becomeFirstResponder()
+    func updateSearchResults(for searchController: UISearchController) {
+        // unimplemented
     }
     
     
-    /// Close search field
+    @objc func showSearchBar(sender: UIBarButtonItem) {
+        //        searchController.isActive = true
+        searchController.searchBar.becomeFirstResponder()
+    }
+    
     func updateUIForSearchContext() {
         defer { searchController.isActive = false }
     }
     
-    
-    /// update table and stored properties with search bar.
-    ///
-    /// - Parameter searchBar: the search bar.
     func refreshSearchContext(with searchBar: UISearchBar) {
         guard let searchText = searchBar.text, !searchText.isEmpty else {
             subreddit = nil
@@ -184,18 +170,24 @@ extension RedditViewController: UISearchResultsUpdating, UISearchBarDelegate {
     }
     
     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
-        refreshSearchContext(with: searchBar)
+        refreshSearchContext(with: searchController.searchBar)
         updateUIForSearchContext()
     }
     
-    func updateSearchResults(for searchController: UISearchController) {
-       // unimplimented
-    }
-    
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        refreshSearchContext(with: searchBar)
+        refreshSearchContext(with: searchController.searchBar)
         
     }
-
+    
 }
 
+
+
+
+// Present the view controller in the Live View window
+
+let vc = RedditViewController()
+let parent = playgroundWrapper(child: vc, device: .phone5_5inch, orientation: .portrait, contentSizeCategory: .accessibilityExtraExtraLarge)
+
+
+PlaygroundPage.current.liveView = parent

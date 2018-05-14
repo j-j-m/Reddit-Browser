@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/jacobmartin/Desktop/Reddit/build/Release-iphoneos/RedditComponents.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RedditComponents-Swift.h",
+          'external-contents': "/Users/jacobmartin/Desktop/Reddit/build/Release-iphoneos/RedditComponents.framework/Headers/RedditComponents-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RedditComponents.h",
+          'external-contents': "/Users/jacobmartin/Desktop/Reddit/Reddit/Dependencies/RedditComponents/RedditComponents.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/jacobmartin/Desktop/Reddit/build/Release-iphoneos/RedditComponents.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/jacobmartin/Desktop/Reddit/build/Reddit.build/Release-iphoneos/RedditComponents.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
